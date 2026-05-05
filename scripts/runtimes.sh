@@ -2,7 +2,7 @@
 
 N=1000
 REPS=3
-OUT="resultados.csv"
+OUT="csv/resultados.csv"
 
 echo "Version,Optimizacion,Compilacion,N,Procesos,Hilos,Repeticion,Tiempo" > $OUT
 
