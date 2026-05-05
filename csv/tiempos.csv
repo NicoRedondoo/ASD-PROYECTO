@@ -1,0 +1,13 @@
+﻿Versión;Tipo de optimización;Compilación (-O);N (tamaño);Tiempo (s);Speedup;Eficiencia;Notas
+Secuencial;Base;O0;;;;;
+Secuencial;Base;O2;;;;;
+ILP;Desenrollado;O0;;;;;
+ILP;Desenrollado;O2;;;;;
+DLP;SIMD;O0;;;;;
+DLP;SIMD;O2;;;;;
+TLP;OpenMP;O0;;;;;
+TLP;OpenMP;O2;;;;;
+MPI;Distribuido;O0;;;;;
+MPI;Distribuido;O2;;;;;
+MPI+OpenMP;Híbrido;O0;;;;;
+MPI+OpenMP;Híbrido;O2;;;;;
